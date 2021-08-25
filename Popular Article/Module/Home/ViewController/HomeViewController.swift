@@ -55,7 +55,7 @@ extension HomeViewController : UITableViewDelegate, UITableViewDataSource {
                 if let mediaMetadataCount = self.model?[indexPath.row].media?[0].mediaMetadata?.count {
                     if(mediaMetadataCount > 0 ) {
                         if let url = self.model?[indexPath.row].media?[0].mediaMetadata?[0].url {
-                            cell.autherImageView.setImage(with: URL(string: url))
+                            cell.autherImageView.kf.setImage(with: URL(string: url))
                         }
                     }
                 }

@@ -10,6 +10,8 @@ import UIKit
 import SafariServices
 class DetailsViewController: UIViewController {
    
+    @IBOutlet weak var eyebutton: UIButton!
+    @IBOutlet weak var shareButton: UIButton!
     @IBOutlet weak var abstractHeight: NSLayoutConstraint!
     @IBOutlet weak var abstractLabel: UILabel! {
         didSet{
@@ -54,7 +56,7 @@ class DetailsViewController: UIViewController {
                 if let mediaMetadataCount = result?.media?[0].mediaMetadata?.count {
                     if(mediaMetadataCount > 0 ) {
                         if let url = result?.media?[0].mediaMetadata?[0].url {
-                            self.autherImageView.setImage(with: URL(string: url))
+                            self.autherImageView.kf.setImage(with: URL(string: url))
                         }
                     }
                 }
@@ -104,6 +106,7 @@ class DetailsViewController: UIViewController {
                self.present(activityViewController, animated: true, completion: nil)
         }
     }
+    
     func heightForView(text:String) -> CGFloat {
         let label:UILabel = UILabel(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width - 15 , height: CGFloat.greatestFiniteMagnitude))
         label.numberOfLines = 0

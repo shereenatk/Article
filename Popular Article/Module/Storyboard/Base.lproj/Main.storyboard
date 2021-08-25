@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Nfc-rR-cEQ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Nfc-rR-cEQ">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -72,7 +72,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="HomeTVCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="HomeTVCell" rowHeight="215" id="H3l-CF-ttZ" customClass="HomeTVCell" customModule="Popular_Article" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="409" height="215"/>
+                                        <rect key="frame" x="0.0" y="24.5" width="409" height="215"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="H3l-CF-ttZ" id="67m-jD-uL6">
                                             <rect key="frame" x="0.0" y="0.0" width="409" height="215"/>
@@ -438,7 +438,9 @@
                         <outlet property="autherNameLabel" destination="ARW-ef-28I" id="2BF-5L-CrH"/>
                         <outlet property="categoryLabel" destination="bxg-Sf-Flp" id="x0z-mt-tPY"/>
                         <outlet property="categoryView" destination="l87-Ld-BI4" id="EKi-ra-nLG"/>
+                        <outlet property="eyebutton" destination="mCN-Ef-0rE" id="7dj-kl-n9q"/>
                         <outlet property="publishedDateLabel" destination="Ogo-fM-s5J" id="U0I-s1-ck4"/>
+                        <outlet property="shareButton" destination="bVa-o7-pUj" id="byS-FT-3Z7"/>
                         <outlet property="titleLabel" destination="JkO-on-B1J" id="Sgl-AJ-jc3"/>
                         <outlet property="updatedLabel" destination="rNk-Yv-IoH" id="T9P-KM-lQV"/>
                     </connections>

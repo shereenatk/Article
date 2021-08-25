@@ -27,9 +27,7 @@ class BaseAPIClient {
                 }
                 onCompletion(nil, response?.error)
             }
-        } else {
-            self.showAlertOnTopWindowLayer(title: "offline", message: "no_network")
-        }
+        } 
     }
     
     func makeNativeNetworkRequest<Generic: Codable>(_ urlString: String,
@@ -53,8 +51,6 @@ class BaseAPIClient {
                 onCompletion(nil, responseError)
             }
             
-        } else {
-            self.showAlertOnTopWindowLayer(title: "offline", message: "no_network")
         }
         
     }
@@ -66,19 +62,19 @@ class BaseAPIClient {
         }
     }
     
-    func showAlertOnTopWindowLayer(title: String, message: String) {
-           
-           let alertWindow = UIWindow(frame: UIScreen.main.bounds)
-           alertWindow.rootViewController = UIViewController()
-           alertWindow.windowLevel = UIWindow.Level.alert + 1
-           let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-           let okAction = UIAlertAction(title: "ok", style: .default) { (_) in
-               alert.dismiss(animated: true, completion: nil)
-           }
-           alert.addAction(okAction)
-           alertWindow.makeKeyAndVisible()
-           alertWindow.rootViewController?.present(alert, animated: true, completion: nil)
-       }
+//    func showAlertOnTopWindowLayer(title: String, message: String) {
+//
+//           let alertWindow = UIWindow(frame: UIScreen.main.bounds)
+//           alertWindow.rootViewController = UIViewController()
+//           alertWindow.windowLevel = UIWindow.Level.alert + 1
+//           let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+//           let okAction = UIAlertAction(title: "ok", style: .default) { (_) in
+//               alert.dismiss(animated: true, completion: nil)
+//           }
+//           alert.addAction(okAction)
+//           alertWindow.makeKeyAndVisible()
+//           alertWindow.rootViewController?.present(alert, animated: true, completion: nil)
+//       }
     
 }
 

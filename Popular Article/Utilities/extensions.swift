@@ -7,13 +7,6 @@
 
 import Foundation
 import UIKit
-import Kingfisher
-
-extension UIImageView {
-    func setImage(with url: URL?, placeHolderImage: UIImage? = UIImage(systemName: "person.circle")) {
-        kf.setImage(with: url, placeholder: placeHolderImage)
-    }
-}
 
 extension UIView {
  func startShimmeringEffect() {
