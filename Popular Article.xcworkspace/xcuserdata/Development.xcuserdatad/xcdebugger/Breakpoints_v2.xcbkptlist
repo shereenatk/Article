@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D3839B37-022C-47DF-BBEB-C20402D47074"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "35F6229F-F04E-4E06-ABFA-714536EC5F53"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Popular ArticleTests/ArticleViewModelTestCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "ArticleViewModelTestCase"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E587C9A-8527-49CB-8631-5FE638396817"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Popular Article/Module/Home/ViewModel/ArticleViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "getArticleList(onCompletion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5E587C9A-8527-49CB-8631-5FE638396817 - 50d484f6d0596df2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Popular_Article.ArticleModel&gt;, Swift.Optional&lt;Popular_Article.ResponseError&gt;) -&gt; () in Popular_Article.ArticleListViewModel.getArticleList(onCompletion: (Swift.Bool, Swift.Optional&lt;Popular_Article.ResponseError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Popular Article"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Development/Desktop/shereena/Popular%20Article/Popular%20Article/Module/Home/ViewModel/ArticleViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "272">
+               </Location>
+               <Location
+                  uuid = "5E587C9A-8527-49CB-8631-5FE638396817 - cb1ad85e6c4186ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Optional&lt;Popular_Article.ArticleModel&gt;, Swift.Optional&lt;Popular_Article.ResponseError&gt;) -&gt; () in Popular_Article.ArticleListViewModel.getArticleList(onCompletion: (Swift.Bool, Swift.Optional&lt;Popular_Article.ResponseError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Popular Article"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Development/Desktop/shereena/Popular%20Article/Popular%20Article/Module/Home/ViewModel/ArticleViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D60CD27-478C-47B8-9B0B-D7DC09014815"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Popular Article/Module/Home/ViewModel/ArticleViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "getArticleList(onCompletion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D81B8ADE-5183-4610-BE6D-4FD31C75EC27"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Popular Article/Module/Home/ViewController/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "getArticleList()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D59F5B59-2C01-43BD-A537-6162BC27196B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Popular Article/Module/Home/ViewController/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
