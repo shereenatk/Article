@@ -67,7 +67,6 @@ extension HomeViewController : UITableViewDelegate, UITableViewDataSource {
         if let date = self.model?[indexPath.row].publishedDate {
             cell.dateButton.setTitle(date, for: .normal)
         }
-        cell.selectedBackgroundView  = .none
         return UITableViewCell()
     }
     
@@ -80,5 +79,6 @@ extension HomeViewController : UITableViewDelegate, UITableViewDataSource {
             vc.result = self.model?[indexPath.row]
             self.navigationController?.pushViewController(vc, animated:   true)
         }
+        tableView.deselectRow(at: indexPath, animated: true)
     }
 }

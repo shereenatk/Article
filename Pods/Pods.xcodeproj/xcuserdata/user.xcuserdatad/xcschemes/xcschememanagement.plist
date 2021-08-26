@@ -4,36 +4,38 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Alamofire.xcscheme_^#shared#^_</key>
+		<key>Alamofire.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>Kingfisher.xcscheme_^#shared#^_</key>
+		<key>Kingfisher.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>Pods-Popular Article-Popular ArticleUITests.xcscheme_^#shared#^_</key>
+		<key>Pods-Popular Article-Popular ArticleUITests.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>Pods-Popular Article.xcscheme_^#shared#^_</key>
+		<key>Pods-Popular Article.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>5</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>Pods-Popular ArticleTests.xcscheme_^#shared#^_</key>
+		<key>Pods-Popular ArticleTests.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>SideMenu.xcscheme_^#shared#^_</key>
+		<key>SideMenu.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict/>
 </dict>
 </plist>

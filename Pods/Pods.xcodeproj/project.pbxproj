@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -815,11 +815,11 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -900,8 +900,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */,
-				1945CD5D63A1C164AEAAA9A33E85571E /* Alamofire-dummy.m in Sources */,
 				BEE6B677416CA71C981D1D3F60B18C96 /* Alamofire.swift in Sources */,
+				1945CD5D63A1C164AEAAA9A33E85571E /* Alamofire-dummy.m in Sources */,
 				D3D8C379C6E4FB487E5ABD6800AD7B7E /* DispatchQueue+Alamofire.swift in Sources */,
 				1986B50C74F1697EA43F68335C93CEB3 /* MultipartFormData.swift in Sources */,
 				3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */,
@@ -987,8 +987,8 @@
 				202D66BB3894AA5D9C951BE732D73591 /* KFImage.swift in Sources */,
 				3730DB5141ACEBA761A584D8E5FB9AFD /* KFImageOptions.swift in Sources */,
 				34EABC6D48B24D7D2CF3FB0507150546 /* KFOptionsSetter.swift in Sources */,
-				E32B34058C03B90683B8822026C05F79 /* Kingfisher-dummy.m in Sources */,
 				03E7A8B02DBB314AAD3CE5730479603D /* Kingfisher.swift in Sources */,
+				E32B34058C03B90683B8822026C05F79 /* Kingfisher-dummy.m in Sources */,
 				607F62D7FF886ECD87DCCA4E9E7C2426 /* KingfisherError.swift in Sources */,
 				94980B372F6F7C6BAF368B041EF37D2D /* KingfisherManager.swift in Sources */,
 				072DC09D770DAEB088FB36B00956EFC9 /* KingfisherOptionsInfo.swift in Sources */,

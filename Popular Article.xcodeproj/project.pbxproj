@@ -35,7 +35,7 @@
 		CE27EA3E26D6B40D00AC168F /* HomeViewControllerTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27EA3D26D6B40D00AC168F /* HomeViewControllerTestCase.swift */; };
 		CE27EA4226D6E35E00AC168F /* HomeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27EA4126D6E35E00AC168F /* HomeDataSource.swift */; };
 		CE27EA4426D6E85E00AC168F /* DetailedViewControllerTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27EA4326D6E85E00AC168F /* DetailedViewControllerTestCase.swift */; };
-		CE27EA4626D6F0DB00AC168F /* URLERROR.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27EA4526D6F0DB00AC168F /* URLERROR.swift */; };
+		CE27EA4826D719A400AC168F /* URLError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27EA4726D719A400AC168F /* URLError.swift */; };
 		F14AE0076D8CF27B7ADEC43C /* Pods_Popular_Article_Popular_ArticleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C27DC16B182E7E60A99843F /* Pods_Popular_Article_Popular_ArticleUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -97,7 +97,7 @@
 		CE27EA3D26D6B40D00AC168F /* HomeViewControllerTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerTestCase.swift; sourceTree = "<group>"; };
 		CE27EA4126D6E35E00AC168F /* HomeDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDataSource.swift; sourceTree = "<group>"; };
 		CE27EA4326D6E85E00AC168F /* DetailedViewControllerTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewControllerTestCase.swift; sourceTree = "<group>"; };
-		CE27EA4526D6F0DB00AC168F /* URLERROR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLERROR.swift; path = ../../../../.Trash/URLERROR.swift; sourceTree = "<group>"; };
+		CE27EA4726D719A400AC168F /* URLError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLError.swift; sourceTree = "<group>"; };
 		DD13EA3B99936C42C4535A60 /* Pods-Popular Article-Popular ArticleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Popular Article-Popular ArticleUITests.debug.xcconfig"; path = "Target Support Files/Pods-Popular Article-Popular ArticleUITests/Pods-Popular Article-Popular ArticleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -192,10 +192,10 @@
 				332214C626D60AF700D2A3E6 /* BaseApiClient.swift */,
 				332214D326D60B2A00D2A3E6 /* NetworkManager.swift */,
 				332214D826D60B4F00D2A3E6 /* PageRouter.swift */,
-				CE27EA4526D6F0DB00AC168F /* URLERROR.swift */,
 				332214DD26D60B6000D2A3E6 /* ResponseSuccess.swift */,
 				332214E226D60B8200D2A3E6 /* ResponseError.swift */,
 				332214EC26D60BB900D2A3E6 /* NetworkReachability.swift */,
+				CE27EA4726D719A400AC168F /* URLError.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -561,11 +561,11 @@
 			files = (
 				332214ED26D60BB900D2A3E6 /* NetworkReachability.swift in Sources */,
 				332215A626D65E5100D2A3E6 /* extensions.swift in Sources */,
+				CE27EA4826D719A400AC168F /* URLError.swift in Sources */,
 				332214DE26D60B6000D2A3E6 /* ResponseSuccess.swift in Sources */,
 				332214D426D60B2A00D2A3E6 /* NetworkManager.swift in Sources */,
 				3322153726D61CA300D2A3E6 /* ArticleViewModel.swift in Sources */,
 				3322156326D654BD00D2A3E6 /* HomeViewController.swift in Sources */,
-				CE27EA4626D6F0DB00AC168F /* URLERROR.swift in Sources */,
 				CE27EA4226D6E35E00AC168F /* HomeDataSource.swift in Sources */,
 				332214FB26D60C0100D2A3E6 /* AppColor.swift in Sources */,
 				332214E326D60B8200D2A3E6 /* ResponseError.swift in Sources */,
